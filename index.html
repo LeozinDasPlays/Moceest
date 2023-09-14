@@ -10,12 +10,13 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <nav class="navbar bg-primary navbar-dark">
+  <nav class="navbar bg-primary navbar-dark navbar-expand-lg fixed-top px-2">
     <a class="navbar-brand" href="">
       <img class="img-peq" src="voo-de-aviao.png">
       <b>Turismo no Nordeste
@@ -24,7 +25,9 @@
 
 
     </a>
-    <button class="navbar-toggler">...</button>
+    <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+      <i class="bi bi-list"></i>
+    </button>
     <div id="menu" class="navbar-collapse collapse">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#Ceara">Ceará</a></li>
@@ -48,7 +51,7 @@
       <div>
         <h2>Fortaleza</h2>
         <div class="row">
-          <img class="col-5" src="FORTALBB.jpg">
+          <img class="img-med col-5" src="FORTALBB.jpg">
           <p class="col-5">Fortaleza, a capital do Ceará, uma cidade muito turística principalmente pelo o maior parque
             aquático do Brasil, o Beach Park, que fica apenas 28 km de distancia da capital, tem um clima quente, ótimo para ir a
             praia como a praia de Iracema, Meireles e outras</p>
@@ -59,13 +62,22 @@
         </div>
       </div>
     </section>
-    <section id="Rio Grande do Norte"></section>
+    <section id="Rio Grande do Norte">
+      <h1>Rio Grande do Norte</h1>
+      <div>
+        <h2>São Luís</h2>
+        <div class="row">
+          <img class="img-med col-5" src="slz01.jpg">
+          <p class="col-5">São Luis, a capital do Maranhão, pode uma cidade legal para você que gosta de história, já que tem muitos locais históricos como o Palácio dos Leões, a Catedral e etc porém também há muitas praias em São Luis como a Praia de São Marcos, Praia do Calhau, Praia do Meio, Praia Ponta d'Areia e etc.</p>
+          <br>
+
+          <h3>Hotéis & Apartamentos de São Luis</h3></section>
     <section id="Maranhao">
       <h1>Maranhão</h1>
       <div>
         <h2>São Luís</h2>
         <div class="row">
-          <img class="col-5" src="slz01.jpg">
+          <img class="img-med col-5" src="slz01.jpg">
           <p class="col-5">São Luis, a capital do Maranhão, pode uma cidade legal para você que gosta de história, já que tem muitos locais históricos como o Palácio dos Leões, a Catedral e etc porém também há muitas praias em São Luis como a Praia de São Marcos, Praia do Calhau, Praia do Meio, Praia Ponta d'Areia e etc.</p>
           <br>
 
@@ -79,7 +91,7 @@
       <div>
         <h2>Teresina</h2>
         <div class="row">
-          <img class="col-5" src="piate01.jpg">
+          <img class="img-med col-5" src="piate01.jpg">
           <p class="col-5">Teresina, a capital do Piauí, é uma ótima cidade para passar alguns dias como apenas um dia, embora há vários pontos turísticos, não tem praias, porém, tem pontos como o Parque Da Cidade, o Jardim Botânico, o Parque Matias Matos e o Macáuba. </p>
           <br>
 
@@ -93,7 +105,7 @@
       <div>
         <h2>João Pessoa</h2>
         <div class="row">
-          <img class="col-5" src="jpp01.jpg">
+          <img class="img-med col-5" src="jpp01.jpg">
           <p class="col-5">João Pessoa, a capital do Paraíba, fica localizada ao leste do estado e tem ótimas praias para visitar como a praia do Cabo Branco, a Praia de Tambaú, a praia do Coqueirinho e etc. Porém, se não quiser praias, também há um park aquático conhecido como Acquaí Park, que também pode ser legal para você. </p>
           <br>
 
@@ -108,7 +120,7 @@
       <div>
         <h2>Salvador</h2>
         <div class="row">
-          <img class="col-5" src="bahsa01.jpg">
+          <img class="img-med col-5" src="bahsa01.jpg">
           <p class="col-5">Fortaleza, a capital do Ceará, uma cidade muito turística principalmente pelo o maior parque
             aquático do Brasil, que fica apenas 28 km de distancia da capital, tem um clima quente, ótimo para ir a
             praia como a praia de Iracema, Meireles e outras</p>
@@ -124,7 +136,7 @@
       <div>
         <h2>Maceió</h2>
         <div class="row">
-          <img class="col-5" src="alama01.jpg">
+          <img class="img-med col-5" src="alama01.jpg">
           <p class="col-5">Fortaleza, a capital do Ceará, uma cidade muito turística principalmente pelo o maior parque
             aquático do Brasil, que fica apenas 28 km de distancia da capital, tem um clima quente, ótimo para ir a
             praia como a praia de Iracema, Meireles e outras</p>
@@ -140,7 +152,7 @@
       <div>
         <h2>Recife</h2>
         <div class="row">
-          <img class="col-5" src="pernrec01.webp">
+          <img class="img-med col-5" src="pernrec01.webp">
           <p class="col-5">Fortaleza, a capital do Ceará, uma cidade muito turística principalmente pelo o maior parque
             aquático do Brasil, que fica apenas 28 km de distancia da capital, tem um clima quente, ótimo para ir a
             praia como a praia de Iracema, Meireles e outras</p>

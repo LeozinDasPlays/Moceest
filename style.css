@@ -1,3 +1,21 @@
 .img-peq{
-    width: 15%;
+    width: 60px;
+}
+
+
+@media(min-width:291px){
+   .img-med{
+    width: 35%;
+   }
+
+}
+@media(min-width:768px){
+    .img-med{
+        width: 45%;
+       }
+}
+@media(min-width:991px){
+    .img-med{
+        width: 55%;
+       }
 }
