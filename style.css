@@ -1,21 +1,23 @@
 .img-peq{
     width: 60px;
 }
-
-
-@media(min-width:291px){
-   .img-med{
-    width: 35%;
+.img-med{
+    width: 50%;
    }
 
+
+@media(min-width:280px){
+   div{
+    font-size: 10px;
+   }
 }
 @media(min-width:768px){
-    .img-med{
-        width: 45%;
-       }
+    div{
+        font-size: 15px;
+       } 
 }
 @media(min-width:991px){
-    .img-med{
-        width: 55%;
-       }
+    div{
+        font-size: 18px;
+       } 
 }
